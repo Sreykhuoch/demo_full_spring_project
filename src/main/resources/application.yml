@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: demo-relationship
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo_relationship
+    username: postgres
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto:  update
+      show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
